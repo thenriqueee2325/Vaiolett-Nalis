@@ -189,3 +189,26 @@ footer {
     }    
     }
 }
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-float img {
+    width: 40px;
+    height: 40px;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
