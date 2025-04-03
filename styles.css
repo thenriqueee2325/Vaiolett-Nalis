@@ -59,8 +59,8 @@ nav{
 }
 
 .cta-button {
-    background-color: #ff6b6b;
-    color: white;
+    background-color: #ee9393;
+    color: rgb(212, 14, 14);
     border: none;
     padding: 1rem 2rem;
     border-radius: 5px;
@@ -69,7 +69,7 @@ nav{
 }
 
 .cta-button:hover {
-    background-color: #fa5a5a;
+    background-color: #d45353;
 }
 
 #MODELOS {
@@ -90,8 +90,8 @@ nav{
 }
 
 .MODELOS-CARD {
-    background: white;
-    border-radius: 10px;
+    background: rgb(241, 219, 232);
+    border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -104,18 +104,18 @@ nav{
 
 .MODELOS-CARD h3 {
     padding: 1rem;
-    color: #333;
+    color: #e269bc;
 }
 
 .PRECIO {
-    color: #ff6b6b;
+    color: #e76969;
     font-weight: bold;
     padding: 0 1rem;
 }
 
 .DESCRIPCION {
     padding: .5rem 1rem;
-    color: #666;
+    color: #635656;
 }
 
 .MODELOS-CARD button {
@@ -152,7 +152,7 @@ form {
 
 input, textarea {
     padding: .8rem;
-    border: 1px solid #ddd;
+    border: 1px solid #c97b7b;
 }
 
 textarea button {
@@ -165,12 +165,12 @@ textarea button {
 }
 
 form button:hover {
-    background-color: #ff5555;
+    background-color: #e98787;
 }
 
 footer {
     background-color: #333;
-    color: white;
+    color: rgb(240, 138, 138);
     text-align: center;
     padding: 1rem;
 }
@@ -212,3 +212,15 @@ footer {
 .whatsapp-float:hover {
     transform: scale(1.1);
 }
+
+.promo {
+    background: #ff6b6b;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+
